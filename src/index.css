@@ -2,9 +2,15 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 1920px;
   padding: 0;
   list-style-type: none;
   /* font-family: 'Open Sans', sans-serif;  */
   text-decoration: none;
 }
+
+/* #root {
+  z-index: -1;
+  background-color: aqua;
+} */

@@ -13,7 +13,6 @@
 position: absolute;
 width: 1920px;
 height: 0px;
-left: 0px;
 top: 97px;
 
 opacity: 0.5;
@@ -23,12 +22,11 @@ border: 1px solid #A1A1A1;
 .head_menu-ul {
 display: flex;
 justify-content: space-around;
-position: absolute;
+position: relative;
 width: 583px;
 height: 59px;
-left: 932px;
+left: 300px;
 top: 40px;
-/* padding-bottom: 60px; */
 
 font-family: Montserrat;
 font-size: 16px;
@@ -59,4 +57,54 @@ text-align: left;
 .head_menu-li::before {
     content: "";
     width: 15px;
+}
+
+.head-startInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    height: 822px;
+    justify-content: center;
+}
+
+.head_text-1 {
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+
+}
+.head_text-2 {
+font-family: Montserrat;
+font-size: 48px;
+font-weight: 800;
+line-height: 64px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+padding:20px 0 50px 0;
+}
+
+.head_button {
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+
+
+border-radius:30px;
+background-color: #4985FF;
+width: 200px;
+height: 45px;
+cursor:pointer;
+border: rgba(111, 111, 111, 0.25);
+
+
 }
