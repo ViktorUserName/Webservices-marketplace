@@ -74,10 +74,13 @@ svg.svg3 {
     height: 110px;
 }
 .services_examples {
+    /* display: flex;
+    padding-bottom: 55px;
+    width: 1320px; */
     display: flex;
     /* height: 200px; */
     padding-bottom: 55px;
-    width: 1320px;
+    justify-content: center;
 }
 .services_examples_test-textB {
 font-family: Montserrat;
@@ -111,4 +114,9 @@ line-height: 22px;
 letter-spacing: 0em;
 text-align: left;
 color: grey;
+}
+
+.services_button {
+    justify-content: center;
+    display: flex;
 }

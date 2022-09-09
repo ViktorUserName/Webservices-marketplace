@@ -4,6 +4,9 @@ import './services.css';
 
 let Services = () => {
     return (
+        <div className='ourServices'>
+        <div className='wrapper'>
+
         <div className='services'>
             <div className='services_text-1'>Мы создаем мобильные приложения<br/>для крупных корпораций</div>
             <div className='services_text-2'>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.<br/> Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </div>
@@ -81,6 +84,9 @@ let Services = () => {
             </div>
 
             <div className='services_button'><button><a href='#'>Все услуги</a></button></div>
+        </div>
+
+        </div>
         </div>
     )
 }

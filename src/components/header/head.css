@@ -9,6 +9,11 @@
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/src/background/photo-1522071820081-009f0129c71c.jpg);
 }
 
+.head_menu {
+    display: flex;
+    justify-content: space-around;
+}
+
 .head-line {
 position: absolute;
 width: 1920px;
@@ -66,6 +71,7 @@ text-align: left;
     position: relative;
     height: 822px;
     justify-content: center;
+    align-items: center;
 }
 
 .head_text-1 {
